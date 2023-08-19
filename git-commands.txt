@@ -12,7 +12,10 @@ COMMIT: (can be said to take SNAPSHOT of files in stagged area)
 CHECKOUT:
         git checkout file/-f(for all files)              // to get file/s status (matching) with just previous commit
 
-
 LOGs:
     git log                //    to view history of all commits with details
     git log -p -n           // -p (previous) and -n (number of commits)     to see limited number of recent commits
+
+DIFF:   
+    git diff        // compare current working files with previous staging
+    git diff --staged       // to compare with previous commit
