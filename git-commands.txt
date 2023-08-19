@@ -17,10 +17,10 @@ LOGs:
     git log -p -n           // -p (previous) and -n (number of commits)     to see limited number of recent commits
 
 DIFF:   
-    git diff        // compare current working files with previous staging
-    git diff --staged       // to compare staged-version of file/s with previous committed-version of file/s
+    git diff        // compare current working files with last commit
+    git diff --staged       // to compare staged-version of file/s with last committed-version of file/s
 
-        (This is first modification after committing )
-        (the commit message was about to add DIFF lines)
+REMOVING FILE/S:
+    -   git rm        // this will remove from the disk
+    -   git rm --cashed fileNames       // this will remove file only from staging area.
 
-        --     These lines are added after adding this file into stagging area.      --
