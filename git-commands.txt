@@ -1,0 +1,18 @@
+------------        GIT COMMANDS        ---------------
+
+git init        // to start a git repo
+STAGGING AREA:
+
+    -   git add --fileNames--       // to add files in staging area. To keep track of these files
+    -   gti add *       or          git add -A          // for staging all files 
+!!!!!!  To keep track of git directory it's needed to commit for first time     !!!!!!
+COMMIT: (can be said to take SNAPSHOT of files in stagged area)
+    -   git commit -m "--commit message--"          // commiting / saving the changes in tracked files. short commit
+    -   git commit                  // this time git will open text editor to write git message comprehensively. detailed commit
+CHECKOUT:
+        git checkout file/-f(for all files)              // to get file/s status (matching) with just previous commit
+
+
+LOGs:
+    git log                //    to view history of all commits with details
+    git log -p -n           // -p (previous) and -n (number of commits)     to see limited number of recent commits
