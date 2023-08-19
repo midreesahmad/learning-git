@@ -18,4 +18,9 @@ LOGs:
 
 DIFF:   
     git diff        // compare current working files with previous staging
-    git diff --staged       // to compare with previous commit
+    git diff --staged       // to compare staged-version of file/s with previous committed-version of file/s
+
+        (This is first modification after committing )
+        (the commit message was about to add DIFF lines)
+
+        --     These lines are added after adding this file into stagging area.      --
