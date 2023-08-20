@@ -14,6 +14,7 @@ STAGGING AREA:
 COMMIT: (can be said to take SNAPSHOT of files in stagged area)
     -   git commit -m "--commit message--"          // commiting / saving the changes in tracked files. short commit
     -   git commit                  // this time git will open text editor to write git message comprehensively. detailed commit
+    -   git commit -a -m "--message--"    Git to automatically stage (add to the index) any tracked files that have been modified or deleted. It doesn't affect untracked files.
 CHECKOUT:
         git checkout file/-f(for all files)              // to get file/s status (matching) with just previous commit
 
@@ -35,4 +36,3 @@ IGNORE (to skip files/directory from tracking)
                 -   *.text
                 -   directory/
                 -   /directory
-
