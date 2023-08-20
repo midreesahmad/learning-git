@@ -1,0 +1,4 @@
+BRANCHING:  
+    git branch branch-name      // creating a new branch
+    git checkout branch-name    // to shift to another branch
+    git checkout -b branch-name         // creating and moving to that branch
