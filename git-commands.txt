@@ -1,9 +1,3 @@
-<<<<<<< HEAD
-BRANCHING:  
-    git branch branch-name      // creating a new branch
-    git checkout branch-name    // to shift to another branch
-    git checkout -b branch-name         // creating and moving to that branch
-=======
 ------------        GIT COMMANDS        ---------------
 
 git init        // to start a git repo
@@ -42,4 +36,7 @@ IGNORE (to skip files/directory from tracking)
                 -   *.text
                 -   directory/
                 -   /directory
->>>>>>> account
+BRANCHING:  
+    git branch branch-name      // creating a new branch
+    git checkout branch-name    // to shift to another branch
+    git checkout -b branch-name         // creating and moving to that branch
