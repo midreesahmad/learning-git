@@ -1,6 +1,7 @@
 ------------        GIT COMMANDS        ---------------
 
 git init        // to start a git repo
+git init -b main        // to initilize git repo with default branch "main"
 STATUS:
     git status          // to see directory status in detail
     git status -s       // status if directory in short view
@@ -40,3 +41,11 @@ BRANCHING:
     git branch branch-name      // creating a new branch
     git checkout branch-name    // to shift to another branch
     git checkout -b branch-name         // creating and moving to that branch
+
+PUSHING REPO:
+    -   create repo on github
+    -   commit in logcal git repo
+    -   git remote add origin github-url
+    -   check-mark repo on github
+    -   git push origin branch-name         !(if asked provide github user-name and created PAT as password)
+    
